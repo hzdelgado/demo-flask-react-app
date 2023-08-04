@@ -12,4 +12,6 @@ If it's necessary, install any missing dependency by running the following comma
 For the frontend (React):
 ### `npm start`
 
+## Demo
+![video](https://github.com/hzdelgado/demo-flask-react-app/assets/88523514/769eed3f-7bf6-493c-9842-5b0b7e355702)
 
