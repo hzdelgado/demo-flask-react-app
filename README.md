@@ -4,7 +4,7 @@ For the backend (Flask), it's necessary to activate a virtual environment first.
 ### `(venv)  flask run`
 
 If it's necessary, install any missing dependency by running the following command inside the api folder:
-### `pip install <name of package>`
+### `pip3 install <name of package> (Mac)`
 
 For the frontend (React):
 ### `npm start`
