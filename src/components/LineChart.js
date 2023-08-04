@@ -4,6 +4,7 @@ import { CategoryScale } from "chart.js";
 import Chart from "chart.js/auto";
 Chart.register(CategoryScale);
 function LineChart({ builder }) {
+  console.log(builder);
   return (
     <div className="chart-container">
       <h2 style={{ textAlign: "center" }}>Line Chart</h2>

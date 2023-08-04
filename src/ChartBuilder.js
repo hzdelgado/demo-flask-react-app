@@ -1,4 +1,4 @@
-class ChartBuilder {
+export default class ChartBuilder {
 
     constructor() {
         this.title = "",
@@ -13,9 +13,17 @@ class ChartBuilder {
         return this;
     }
 
+    getTitle() {
+        return this.title;
+    }
+
     setShowTitle() {
         this.showTitle = true;
         return this;
+    }
+
+    getShowTitle() {
+        return this.showTitle;
     }
 
     setData(data) {
@@ -23,9 +31,17 @@ class ChartBuilder {
         return this;
     }
 
+    getData() {
+        return this.data;
+    }
+
     setShowLegend() {
         this.showLegend = true;
         return this;
+    }
+
+    getShowLegend() {
+        return this.showLegend;
     }
 
     setChartType(chartType) {
