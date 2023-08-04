@@ -1,8 +1,10 @@
 class ChartBuilder {
+
     constructor() {
         this.title = "",
         this.showTitle = false;
         this.data = {};
+        this.chartType = "";
         this.showLegend = false;
     }
 
@@ -26,12 +28,18 @@ class ChartBuilder {
         return this;
     }
 
+    setChartType(chartType) {
+        this.chartType = chartType;
+        return this;
+    }
+
     build() {
         return {
             title: this.title,
             showTitle: this.showTitle,
             data: this.data,
-            showLegend: this.showLegend
+            showLegend: this.showLegend,
+            chartType: this.chartType
         }
     }
 }
